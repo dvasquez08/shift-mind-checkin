@@ -18,7 +18,7 @@ class _homeScreenState extends State<homeScreen> {
       appBar: AppBar(
         backgroundColor: Colors.black26,
         title: Text(
-          'Welcome To CheckinQ',
+          'Welcome To ShiftMind Checkin',
           style: GoogleFonts.openSans(
               fontWeight: FontWeight.w300, color: Colors.white),
         ),
@@ -36,7 +36,7 @@ class _homeScreenState extends State<homeScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(height: 15.0),
-            SansText('Welcome to CheckinQ!', 50.0),
+            SansText('Welcome to ShiftMind Checkin!', 50.0),
             SizedBox(height: 15.0),
             SansText('Select an option below to begin:', 25.0),
             SizedBox(height: 50.0),
