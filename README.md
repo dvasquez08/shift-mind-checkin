@@ -1,16 +1,3 @@
-# checkin_q
+# ShiftMind Check-in
 
-Employee Checkin App
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+First part of major project. This is a Flutter mobile application built for iOS and Android. The overall ShiftMind app is an employee management system used for employers to track staff schedules and shifts. The mobile application part of this project is for employees to check in and out using a bard code on an employee ID. The application will run on a tablet, then it uses its camera as the barcode reader, the emplpyee would then scan their card with the camera and the application takes the barcode, the timestamp of when it was scanned and stores it in a Firestore database. The mobile app it's still in the works. The main functionality works as in it can scan barcodes, and store the timestamp into the database. What's left is mostly design work. The web application that is used for employees and staff to see the data will be built with React. Looking forward to sharing the progress! 
