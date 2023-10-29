@@ -1,10 +1,8 @@
 import 'package:checkin_q/checkIn.dart';
 import 'package:checkin_q/components.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'checkOut.dart';
-import 'package:intl/intl.dart';
 
 class homeScreen extends StatefulWidget {
   const homeScreen({Key? key}) : super(key: key);
@@ -13,8 +11,6 @@ class homeScreen extends StatefulWidget {
 }
 
 class _homeScreenState extends State<homeScreen> {
-  late String formattedDate;
-  late Ticker _ticker;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,7 +35,6 @@ class _homeScreenState extends State<homeScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SansText('$formattedDate', 25.0),
             SizedBox(height: 15.0),
             SansText('Welcome to CheckinQ!', 50.0),
             SizedBox(height: 15.0),
@@ -113,11 +108,5 @@ class _homeScreenState extends State<homeScreen> {
         ),
       ),
     );
-  }
-
-  @override
-  void dispose() {
-    _ticker.dispose();
-    super.dispose();
   }
 }
