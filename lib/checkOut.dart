@@ -46,6 +46,10 @@ class _checkOutState extends State<checkOut> {
             fit: BoxFit.cover,
           ),
         ),
+
+        // Check-out section, where staff will scan their QR code to check out.
+        //Username and password sign-in haven't been built yet.
+
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [

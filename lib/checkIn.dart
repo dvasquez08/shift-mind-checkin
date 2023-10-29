@@ -47,6 +47,10 @@ class _checkInState extends State<checkIn> {
             fit: BoxFit.cover,
           ),
         ),
+
+        // Check-in section, where staff will scan their QR code to checkin.
+        //Username and password sign-in haven't been built yet.
+
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
