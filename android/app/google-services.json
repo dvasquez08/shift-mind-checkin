@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "688609712004",
+    "project_id": "checkinq-8aed0",
+    "storage_bucket": "checkinq-8aed0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688609712004:android:36d980f7578dc7f245afd1",
+        "android_client_info": {
+          "package_name": "davtek.ca.checkin_q"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688609712004-8uqapiab2sfd5cmm48vcau6gpoo1vfeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzCc_xkwewhM_FUdOwa_sBKZaBx32LCrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688609712004-8uqapiab2sfd5cmm48vcau6gpoo1vfeb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "688609712004-5tv44ibvk0lbs14ruj6b6s8c7l8v4rhh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "davtek.ca.checkinq"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

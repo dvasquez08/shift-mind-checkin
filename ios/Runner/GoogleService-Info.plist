@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>688609712004-5tv44ibvk0lbs14ruj6b6s8c7l8v4rhh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.688609712004-5tv44ibvk0lbs14ruj6b6s8c7l8v4rhh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDuNDEuqKNEc6z8cqEEIl2kFPYfVUN_vFs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>688609712004</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>davtek.ca.checkinq</string>
+	<key>PROJECT_ID</key>
+	<string>checkinq-8aed0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>checkinq-8aed0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:688609712004:ios:dddf764e7509addf45afd1</string>
+</dict>
+</plist>
